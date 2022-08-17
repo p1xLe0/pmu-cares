@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet"/>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <section id="header">
+        <!-- navigation bar-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+            <!-- logo -->
+              <a class="nav-logo pe-5" href="#"><img src="careslogo.jpeg" alt="CARES logo" height="80px" width="80px"></a>
+              </button>
+              <!-- links -->
+              <div class="d-flex">
+                <div class="navbar-nav">
+                <a class="nav-link nav-item" href="#"> 
+                    <i class="material-icons-outlined n-icon" style="font-size: 32px;">timeline</i>
+                </a>
+                <a class="nav-link nav-item" href="#">
+                    <i class="material-icons-outlined n-icon" style="font-size: 32px;">account_circle</i> 
+                </a>
+                <a class="nav-link nav-item" href="#">
+                    <i class="material-icons-outlined n-icon" style="font-size: 32px;">people_alt</i>
+                <a class="nav-link nav-item" href="#">
+                    <i class="material-icons-outlined n-icon" style="font-size: 32px;">textsms</i>
+                </a>
+                <a class="nav-link nav-item" href="#">
+                    <i class="material-icons n-icon" style="font-size: 32px;">center_focus_weak</i>
+                </a>
+                <a class="nav-link nav-item" href="#">
+                    <i class="material-icons-outlined n-icon" style="font-size: 32px;">text_snippet</i>
+                </a>
+                </div>
+              </div>
+            </div>
+            <!-- search -->
+            <div class="search" style="margin-left: 5em;">
+              <a class="nav-link px-4 py-4 search" href="#">
+                <i class="material-icons" style="font-size: 32px;">search</i> 
+              </a>   
+            </div>
+            <!-- updates/notifs -->
+            <div class="right-nav d-flex">             
+                <a class="nav-link px-4 py-4 notif" href="#">
+                    <i class="material-icons-outlined" style="font-size: 32px;">inbox</i>   
+                    <span class="position-absolute top-10 start-90 translate-middle badge rounded-pill">
+                        1
+                    </span>
+                </a>
+                <a class="nav-link px-3 py-4 notif" href="#">
+                    <i class="material-icons-outlined" style="font-size: 32px;">notifications</i> 
+                    <span class="position-absolute top-10 start-90 translate-middle badge rounded-pill">
+                        8
+                    </span>
+                </a>
+                <a class="nav-link px-3 py-4 notif" href="#">
+                    <i class="material-icons-outlined" style="font-size: 32px;">shopping_cart</i>
+                    <span class="position-absolute top-10 start-90 translate-middle badge rounded-pill">
+                        3
+                    </span> 
+                </a>
+            </div>
+            <!-- profile -->
+            <div class="profile-nav d-flex" style="margin-left: 2%;">
+                <h6 class="username">John</h6>
+                <i><img class="avatar" alt="avatar" src="avatar.png"></i>
+            </div>
+          </nav>
+
+    </section>
+    
+    <section id="content">
+        <div class="content-container">
+            <div class="d-flex">
+              <div class="blog">
+                <div class="blog-title">
+                    <h3>Blog</h3>
+                </div>
+                <div class="blog-content">
+                    <div class="blog1">
+                        <img class="blog-img" src="blog1.jpg" alt="blog1" width="80px" height="80px">
+                        <div class="blog-txt"><span>Tackle your closet spring cleaning</span>
+                            <p>May 14, 2019</p>
+                        </div>
+                    </div>
+                    <div class="blog1">
+                        <img class="blog-img" src="blog2.jpg" alt="blog1" width="80px" height="80px">
+                        <div class="blog-txt"><span>The truth about business blogging</span>
+                        <p>May 14, 2019</p>
+                        </div>
+                    </div>
+                    <div class="blog1">
+                        <img class="blog-img" src="blog3.jpg" alt="blog1" width="80px" height="80px">
+                        <div class="blog-txt"><span>10 tips to stay health when...</span>
+                        <p>May 14, 2019</p>
+                        </div>
+                    </div>
+                    <div class="blog1">
+                        <img class="blog-img" src="blog4.jpg" alt="blog1" width="80px" height="80px">
+                        <div class="blog-txt"><span>visiting Amsterdam on a budget</span>
+                        <p>May 8, 2019</p>
+                        </div>
+                    </div>
+                    <div class="blog1">
+                        <img class="blog-img" src="blog5.jpg" alt="blog1" width="80px" height="80px">
+                        <div class="blog-txt"><span>OMA completes renovation of Sotheby's new...</span>
+                        <p>May 8, 2019</p>
+                        </div>                    
+                    </div>
+                </div>
+              </div>
+              <div class="feed mb-5">
+                <div class="feed-title mb-5">
+                    <h1><b>Activity Feed</b></h1>
+                </div>
+                <div class="post-box mb-5">
+                    <div class="avatar-text p-4 d-flex">
+                        <img class="avatar" src="avatar.png">
+                        <form class="w-100 px-3">
+                            <input type="name" class="form-control form-control-lg" placeholder="Share what's on your mind, John...">
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="social px-3 py-2">
+                        <a class="social-icons" href="#">
+                            <i class="material-icons s-icon" style="font-size: 30px;">photo_camera</i>
+                        </a>
+                        <a class="social-icons" href="#">
+                            <i class="material-icons s-icon" style="font-size: 30px;">videocam</i>
+                        </a>
+                        <a class="social-icons" href="#">
+                            <i class="material-icons-outlined s-icon" style="font-size: 30px;">file_present</i>
+                        </a>
+                        <a class="social-icons" href="#">
+                            <i class="material-icons s-icon" style="font-size: 30px;">gif_box</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feed-nav mb-5">
+                    <div  class="feed-link row me-1">
+                        <div class="links1 col-lg-6">
+                        <a href="#">All Updates</a>
+                        <a href="#">Likes</a>
+                        </div>
+                        <input class="col ms-5" type="text" placeholder="  Search Feed...">
+                       
+                    </div>
+                </div>
+                <!-- feed updates -->
+                <div class="feed-updates">
+                    <div class="card mb-3">
+                        <div class="d-flex m-3">
+                            <div>
+                                <img class="avatar m-2" src="avatar.png">
+                            </div>
+                            <div class="m-2">
+                                <span><b>John</b> posted an update</span>
+                                <br>
+                                <span> a year ago</span>
+                                <span class="mx-2"><b>.</b></span>
+                                <i class="material-icons" style="font-size: 18px;">public</i>
+                                <i class="material-icons" style="font-size: 24px; color: #d3d3d3;">arrow_drop_down</i>                               
+                            </div>                                            
+                        </div><img class="mx-4 rounded" src="feed1.jpg"> 
+                        <div class="card-body mx-2">
+                          <h5 class="card-title">Lorem ipsum</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <a href="#"><i class="material-icons-outlined" style="color: #ff0015;">favorite_border</i></a>
+                          <a href="#"><i class="material-icons-outlined" style="color: #0077ff;">share</i></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="feed-updates">
+                    <div class="card mb-3">
+                        <div class="d-flex m-3">
+                            <div>
+                                <img class="avatar m-2" src="avatar.png">
+                            </div>
+                            <div class="m-2">
+                                <span><b>John</b> posted an update</span>
+                                <br>
+                                <span> a year ago</span>
+                                <span class="mx-2"><b>.</b></span>
+                                <i class="material-icons" style="font-size: 18px;">public</i>
+                                <i class="material-icons" style="font-size: 24px; color: #d3d3d3;">arrow_drop_down</i>                               
+                            </div>                                            
+                        </div><img class="mx-4 rounded" src="feed1.jpg"> 
+                        <div class="card-body mx-2">
+                          <h5 class="card-title">Lorem ipsum</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <a href="#"><i class="material-icons-outlined" style="color: #ff0015;">favorite_border</i></a>
+                          <a href="#"><i class="material-icons-outlined" style="color: #0077ff;">share</i></a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+              <div class="profile-info">
+                <div class="info-title">
+                    <h3>Complete Your Profile</h3>
+                </div>
+                <div class="progress-bar text-center">
+                    <div class="barOverflow">
+                      <div class="bar">
+                        <h2 class="mt-5">73%</h2><span style="color: gray;">Complete</span></div>
+                    </div>
+                  </div>
+                  <div class="progress-text py-1 text-center">
+                    <div class="complete">
+                        <i class="material-icons info-icons mx-5" style="float: left;">radio_button_unchecked</i>
+                        <span class="pro-text info-icons mx-3" style="float: left;"><b>General Information</b></span>
+                        <span class="info-icons mx-5" style="float: right;"><b>5/6</b></span>
+                    </div>
+                    <div class="complete">
+                        <i class="material-icons info-icons mx-5" style="float: left;">radio_button_unchecked</i>
+                        <span class="pro-text info-icons mx-3" style="float: left;"><b>Work Experience</b></span>
+                        <span class="info-icons mx-5" style="float: right;"><b>1/3</b></span>
+                        </div>
+                    <div class="complete done">
+                        <i class="material-icons info-icons mx-5 done" style="float: left;">check_circle</i>
+                        <span class="pro-text info-icons mx-3 done" style="float: left;"><b>Profile Photo</b></span>
+                        <span class="info-icons mx-5 done" style="float: right;"><b>1/1</b></span>
+                    </div>
+                    <div class="complete">
+                        <i class="material-icons info-icons mx-5 done" style="float: left;">check_circle</i>
+                        <span class="pro-text info-icons mx-3 done" style="float: left;"><b>Cover Photo</b></span>
+                        <span class="info-icons mx-5 done" style="float: right;"><b>1/1</b></span>
+                    </div>    
+                  </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+    </section>
+</body>
+</html>
