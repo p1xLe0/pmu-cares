@@ -10,4 +10,7 @@ Please zoom out of the browser to fit the UI(Around 70% on screen with 1366x768 
 
 screenshot.png shows the output on a 1080p screen.
 
+The icons differ from the given picture. Google Material Icons were used in this webpage.
+
 main zip file - pmu-main.zip 
+
